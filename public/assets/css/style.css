@@ -1,0 +1,159 @@
+.hero-slide{
+    color: blue;
+    background-color: black;
+}
+
+.sty{
+    background-color:darkblue;
+    
+    color: white;
+    font-weight: bolder;
+    font-style: italic;
+    lighting-color: white;
+    max-lines: 7;
+    padding: 90px;
+}
+
+#navbar{
+    background-color:darkblue;
+    border-bottom: solid goldenrod;
+    position:sticky;
+    padding: 30px;
+    
+}
+
+.uni{
+    color: goldenrod;
+}
+
+/* .hero{
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+} */
+
+
+#footer{
+    background-color: white;
+}
+
+#card-buttons{
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+
+/* .assignment-form{
+    border: 9px solid;
+} */
+
+#one{
+    width: 15px;
+    
+}
+
+/* #body{
+    margin: auto;
+    border: dark;
+} */
+
+#file{
+    margin: auto;
+}
+
+#blog{
+    background-color:crimson;
+    border-bottom: solid black;
+    position:sticky;
+    padding: 30px;
+}
+
+/* .assignment-body{
+    background-color:red;
+    border: 300px solid;
+} */
+
+#blog-nav-bar{
+    background-color: darkblue;
+    line-height: 80px;
+}
+
+.submission-page{
+    background-color: aliceblue;
+}
+
+.pay-form{
+    justify-content: center;
+    background-color: aliceblue;
+   
+}
+
+#display-image{
+    transition: all 4.3s;
+}
+
+#display-image:hover{
+    transform: scale(1.13);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#myCarousel {
+    margin-top: 50px;
+}
+
+@media (max-width: 768px) {
+    .carousel-inner .carousel-item>div {
+        display: none;
+    }
+
+    .carousel-inner .carousel-item>div:first-child {
+        display: block;
+    }
+}
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-start,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+    display: flex;
+}
+
+@media (min-width: 768px) {
+
+    .carousel-inner .carousel-item-right.active,
+    .carousel-inner .carousel-item-next,
+    .carousel-item-next:not(.carousel-item-start) {
+        transform: translateX(25%) !important;
+    }
+
+    .carousel-inner .carousel-item-left.active,
+    .carousel-item-prev:not(.carousel-item-end),
+    .active.carousel-item-start,
+    .carousel-item-prev:not(.carousel-item-end) {
+        transform: translateX(-25%) !important;
+    }
+
+    .carousel-item-next.carousel-item-start,
+    .active.carousel-item-end {
+        transform: translateX(0) !important;
+    }
+
+    .carousel-inner .carousel-item-prev,
+    .carousel-item-prev:not(.carousel-item-end) {
+        transform: translateX(-25%) !important;
+    }
+}
